@@ -34,6 +34,13 @@ local Tab = Window:CreateTab({
 	ShowTitle = true
 })
 local Button = Tab:CreateButton({
+	Name = "Fisch",
+	Description = nil, 
+    	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/ZenithHub/refs/heads/main/Loader"))()
+    	end
+})
+local Button = Tab:CreateButton({
 	Name = "Doors",
 	Description = nil, 
     	Callback = function()
