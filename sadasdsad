@@ -100,7 +100,7 @@ local Button = Tab:CreateButton({
 	Name = "Hoopz",
 	Description = nil, 
     	Callback = function()
-      loadstring(game:HttpGet("https://pastefy.app/D9w97Tvm/raw"))()
+      loadstring(game:HttpGet("https://pastefy.app/Lf0xw1WV/raw"))()
     	end
 })
 local Button = Tab:CreateButton({
