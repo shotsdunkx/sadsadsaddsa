@@ -153,6 +153,13 @@ local Button = Tab:CreateButton({
     	end
 })
 local Button = Tab:CreateButton({
+	Name = "The Wild West 4.0",
+	Description = nil, 
+    	Callback = function()
+      loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/255ac567ced3dcb9e69aa7e44c423f19.lua"))()
+    	end
+})
+local Button = Tab:CreateButton({
 	Name = "Death Ball",
 	Description = nil, 
     	Callback = function()
